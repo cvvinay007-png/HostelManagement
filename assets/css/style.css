@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #172554;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 25px 15px;
+}
+
+.sidebar h3 {
+    color: white;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 13px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #2563eb;
+    color: white;
+}
+
+/* Main content */
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Dashboard cards */
+
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-left: 5px solid #2563eb;
+}
+
+.stat-card h5 {
+    color: #64748b;
+    font-size: 15px;
+}
+
+.stat-card h2 {
+    color: #172554;
+    margin-top: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+﻿.env
+.env.*
+!.env.example
+
+*.sql
+*.sql.zip
+*.bak
+*.old
+
+.DS_Store
+Thumbs.db
+
+config/db.php
